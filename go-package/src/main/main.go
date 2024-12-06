@@ -15,9 +15,11 @@ import (
 
 	// gomod方式，这里[go-package]其实是 module [go-package]
 	"go-package/src/dbutilss"
+	"go-package/mytool"
 )
 
 func main() {
 	fmt.Println("fuck you")
+	mytool.Add(2, 3)
 	dbutilss.GetConn()
 }
